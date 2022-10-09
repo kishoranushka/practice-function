@@ -3,14 +3,14 @@
 #include<iostream> 
 #include<math.h>
  using namespace std; 
- int square(int n)
+ float square(float n)
  {
     n=pow(n,2);
     return n;
  }
  int main()
  {
-    int a,b,c,n;
+    float a,b,c,n;
     cout<<"enter the max number: " ;
     cin>>a;
     cout<<"enter the other two numbers: ";
